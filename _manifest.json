@@ -2,15 +2,17 @@
   "manifest_version": 1,
   "name": "Leave Delete Guard Plugin",
   "version": "0.1.0",
-  "description": "高风险的退群插件：由 Planner 或 /ldg 在严格策略下执行退群/删好友。",
+  "description": "高风险的主动退群插件：由 Planner 或 /ldg 在严格策略下执行退群/删好友。",
   "author": {
-    "name": "MaiBot Community",
-    "url": "https://github.com/MaiM-with-u/MaiBot"
+    "name": "晴空",
+    "url": "https://github.com/XXXxx7258"
   },
   "license": "MIT",
   "host_application": {
     "min_version": "0.11.6"
   },
+  "homepage_url": "https://github.com/XXXxx7258/leave_delete_guard_plugin",
+  "repository_url": "https://github.com/XXXxx7258/leave_delete_guard_plugin",
   "keywords": [
     "risk-control",
     "planner",
@@ -33,5 +35,5 @@
       "严格限制当前上下文目标"
     ]
   },
-  "id": "MaiBotCommunity.leave_delete_guard_plugin"
+  "id": "XXXxx7258.leave_delete_guard_plugin"
 }
