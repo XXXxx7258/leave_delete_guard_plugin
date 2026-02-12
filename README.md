@@ -29,4 +29,8 @@
 
 ## 使用方式
 
-- 在napcat页面配置对于http服务器
+- 在napcat页面配置对应的http服务器即可，端口和对应token可自定义，只需要和配置文件端口和token对应即可：
+- <img width="451" height="485" alt="image" src="https://github.com/user-attachments/assets/5d0cc8e6-c6e5-4c3e-8d1f-48ec522f42f6" /><img width="639" height="833" alt="image" src="https://github.com/user-attachments/assets/fc265de4-bf56-4bf0-9a46-c575cc9c5628" />
+
+
+  
