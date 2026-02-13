@@ -69,7 +69,7 @@ def _build_action_context(is_group: bool, group_id: Optional[str], user_id: Opti
 
 class LeaveDeleteGuardAction(BaseAction):
     action_name = "leave_delete_guard_action"
-    action_description = "高风险自保动作：当遭遇严重侮辱、建政或极端危险言论时，退出当前群聊或删除当前私聊好友。"
+    action_description = "高风险自保动作：当遭遇非常严重的侮辱、建政或极端危险言论时，退出当前群聊或删除当前私聊好友。"
 
     activation_type = ActionActivationType.ALWAYS
     keyword_case_sensitive = False
@@ -81,6 +81,7 @@ class LeaveDeleteGuardAction(BaseAction):
     }
     action_require = [
         "这是高风险自保动作，默认不应使用。",
+        "若真遇到切实的相关言论，请先选择reply动作询问其意图，不可武断下结论。",
         "仅当出现严重侮辱、人身攻击、建政或其他极端危险言论时使用,若对方并无实质性语言，不能恶意揣测对方意图",
         "不要因为他人单纯要求“退群/删好友”就触发该动作。",
         "严禁跨上下文操作：群聊只能退当前群，私聊只能删当前对象。",
